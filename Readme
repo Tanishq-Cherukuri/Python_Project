@@ -1,0 +1,73 @@
+🦠 COVID-19 Exploratory Data Analysis (USA): 2020–2022
+This project provides a comprehensive Exploratory Data Analysis (EDA) of COVID-19 in the United States over a two-year period (July 2020 – July 2022). Leveraging a large dataset from Kaggle, we uncover trends in confirmed cases, deaths, mortality rates, and state-wise impacts. The analysis is intended to inform public health understanding and showcase how data science can reveal meaningful insights in a global crisis.
+
+🎯 Objectives
+Analyze nationwide and state-level trends in COVID-19 cases, deaths, and mortality rates.
+
+Identify the states most affected in terms of confirmed cases and fatalities.
+
+Explore time-series trends and the effectiveness of pandemic control measures.
+
+Communicate findings using compelling data visualizations.
+
+🗂 Dataset Overview
+Source: Kaggle - COVID-19 US Dataset
+
+Rows: 60,060
+
+Columns: 15 (including date, tot_cases, new_case, tot_death, new_death, etc.)
+
+Time Frame: July 2020 – July 2022
+
+Tools Used: Python (Jupyter Notebook), Pandas, Matplotlib, Seaborn
+
+🔍 Key Insights
+🧬 National Statistics
+Total Cases: ~19.58 billion records (aggregated sum)
+
+Total Deaths: ~291 million reported
+
+Mortality Rate: 1.54%, indicating a significant health impact
+
+🗺️ State-Level Impact
+Metric	Top State(s)
+Most Confirmed Cases	Illinois, California
+Most Confirmed Deaths	New York City, California
+Highest Death Rate	New York City (2.58%), Mississippi, New Jersey
+
+📉 Time Series Observations
+Peak Wave: Rapid case/death growth from early 2020 to Jan 2021
+
+Stabilization: Noticeable decline and stabilization post Jan 2021
+
+Decline Phase: Significant drop in new cases between Jan 2022 and July 2022
+
+📊 Visualizations
+Pie Charts: State-wise share of confirmed cases and deaths
+
+Bar Graphs: Comparative analysis by state
+
+Trend Lines: Daily growth of confirmed cases, deaths, and new cases
+
+Tabular Summary: Death rates per state
+
+🧠 Descriptive & Statistical Highlights
+Daily new case average: ~1,749
+
+Average daily deaths: ~19
+
+States like NYC and NJ reported death rates significantly higher than the national average (over 2%)
+
+🛠 Tools & Technologies
+Language: Python
+
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+
+Environment: Jupyter Notebook
+
+Techniques: Time series analysis, descriptive statistics, visual storytelling
+
+🧾 Conclusion
+This project highlights the uneven impact of COVID-19 across U.S. states, with densely populated states like New York and California facing the highest toll. The exploratory analysis shows how government interventions helped flatten the curve from 2021 onwards. Visual analytics proved invaluable in communicating the scale and timeline of the pandemic.
+
+📌 Takeaway: Data-driven health surveillance is critical for shaping timely policy responses during public health crises.
